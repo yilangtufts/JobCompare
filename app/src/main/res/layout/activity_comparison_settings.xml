@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ComparisonSettingsActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="20dp"
+
+            android:text="Comparison settings"
+            android:textSize="32dp"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/yearlySalaryHeader"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:hint="Yearly salary:"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                 />
+
+            <EditText
+                android:id="@+id/yearlySalaryText"
+                android:layout_width="232dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="2dp"
+                android:text="1"
+                />
+                </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/yearlyBonusHeader"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:hint="Yearly bonus:"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="2dp"
+                />
+
+            <EditText
+                android:id="@+id/yearlyBonusText"
+                android:layout_width="232dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="2dp"
+                android:text="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/weeklyTeleworkHeader"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:hint="Weekly telework:"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="2dp"
+                />
+            <EditText
+                android:id="@+id/weeklyTeleworkText"
+                android:layout_width="232dp"
+                android:layout_height="52dp"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="2dp"
+                android:text="1"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/leaveTimeHeader"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:hint="Leave time"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="2dp"
+                 />
+
+
+
+            <EditText
+                android:id="@+id/leaveTimeText"
+                android:layout_width="232dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="2dp"
+                android:text="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/gymAllowanceHeader"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:hint="Gym allowance:"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="2dp"/>
+            <EditText
+                android:id="@+id/gymAllowanceText"
+                android:layout_width="232dp"
+                android:layout_height="49dp"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="2dp"
+                android:text="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/saveButtonComparisonSettings"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginRight="20dp"
+                android:text="Save"
+                />
+
+            <Button
+                android:id="@+id/cancelButtonComparisonSettings"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:text="Cancel"
+                 />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

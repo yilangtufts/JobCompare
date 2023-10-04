@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.TwoJobsComparisonActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="411dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="49dp"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Here is your comparison"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <TextView
+        android:id="@+id/jobComparisonJobOneTitle"
+        android:layout_width="196dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="104dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/jobComparisonJobTwoTitle"
+        android:layout_width="214dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="104dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobTwoCompany"
+        android:layout_width="215dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="144dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobTwoCity"
+        android:layout_width="215dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="184dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobTwoState"
+        android:layout_width="215dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="224dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobTwoYearlySalary"
+        android:layout_width="215dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="264dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobTwoYearlyBonus"
+        android:layout_width="215dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="304dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobTwoTeleworkDays"
+        android:layout_width="215dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="344dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobTwoLeaveTime"
+        android:layout_width="215dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="384dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobTwoGymAllowance"
+        android:layout_width="215dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="424dp"
+
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobOneCompany"
+        android:layout_width="196dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="144dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobOneCity"
+        android:layout_width="196dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="184dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobOneState"
+        android:layout_width="196dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="224dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobOneYearlySalary"
+        android:layout_width="196dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="264dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobOneYearlyBonus"
+        android:layout_width="196dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="304dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobOneTeleworkDays"
+        android:layout_width="196dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="344dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobOneLeaveTime"
+        android:layout_width="196dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="384dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobComparisonJobOneGymAllowance"
+        android:layout_width="196dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="424dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/anotherComparisonButtonJobComparison"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="36dp"
+        android:text="ANOTHER COMPARISON"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cancelButtonJobComparison"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="36dp"
+        android:text="Back to Main Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
